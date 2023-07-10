@@ -1,3 +1,7 @@
+html{
+    scroll-behavior:smooth;
+}
+
 body{
     font-family: 'NS';
     font-weight: 500;
@@ -31,6 +35,17 @@ body p{
     letter-spacing: 0.6px;
 }
 .header-logo a {text-decoration: none;}
+
+#header {
+    background-color: #f1f1f1; /* Grey background */
+    text-align: center; /* Centered text */
+     /* Big font size 삭제*/
+    font-weight: bold;
+    position: fixed; /* Fixed position - sit on top of the page */
+    top: 0;
+    width: 100%; /* Full width */
+    transition: 0.2s; /* Add a transition effect (when scrolling - and font size is decreased) */
+  }
 
 #header .header-logo {
 	position: relative;
